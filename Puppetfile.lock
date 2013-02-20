@@ -29,6 +29,16 @@ GITHUBTARBALL
     hub (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-icu4c
+  specs:
+    icu4c (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-mysql
+  specs:
+    mysql (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.0.0)
@@ -42,6 +52,11 @@ GITHUBTARBALL
   remote: boxen/puppet-nvm
   specs:
     nvm (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-redis
+  specs:
+    redis (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-ruby
@@ -70,10 +85,13 @@ DEPENDENCIES
   git (= 1.0.0)
   homebrew (= 1.0.0)
   hub (= 1.0.0)
+  icu4c (= 1.0.0)
   inifile (= 0.9.0)
+  mysql (= 1.0.0)
   nginx (= 1.0.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
+  redis (= 1.0.0)
   ruby (= 1.0.0)
   stdlib (= 3.0.0)
   sudo (= 1.0.0)
