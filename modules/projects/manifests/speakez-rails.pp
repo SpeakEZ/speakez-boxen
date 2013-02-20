@@ -1,6 +1,5 @@
 class projects::speakez-rails {
   include icu4c
-  include heroku
 
   boxen::project { 'speakez-rails':
     nginx         => true,
