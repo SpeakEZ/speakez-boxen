@@ -64,31 +64,6 @@ GITHUBTARBALL
     icu4c (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-iterm2
-  specs:
-    iterm2 (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-java
-  specs:
-    java (1.0.5)
-
-GITHUBTARBALL
-  remote: boxen/puppet-macvim
-  specs:
-    macvim (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-minecraft
-  specs:
-    minecraft (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-mongodb
-  specs:
-    mongodb (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-mysql
   specs:
     mysql (1.0.0)
@@ -114,26 +89,6 @@ GITHUBTARBALL
     nvm (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-phantomjs
-  specs:
-    phantomjs (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-postgresql
-  specs:
-    postgresql (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-propane
-  specs:
-    propane (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-python
-  specs:
-    python (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
     redis (1.0.0)
@@ -141,21 +96,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-<<<<<<< HEAD
-    ruby (3.0.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-sparrow
-  specs:
-    sparrow (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-sublime_text_2
-  specs:
-    sublime_text_2 (1.0.0)
-=======
     ruby (3.1.0)
->>>>>>> Bump modules
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
