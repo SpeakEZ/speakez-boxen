@@ -6,13 +6,22 @@ class people::geothird {
   include minecraft
   include virtualbox
   include things
+  include vlc
   include sublime_text_2
   include chrome
 #  include chrome::dev
 
   $home     = "/Users/${::luser}"
-  $code       = "${home}/code"
+  $code     = "${home}/code"
   $dotfiles = "${code}/dotfiles"
+
+  # Homebrew packages to install
+  package {
+    [
+      'bash-completion',
+      'htop-osx'
+    ]:
+  }
 
   repository { $dotfiles:
     source  => 'geothird/dotfiles'
