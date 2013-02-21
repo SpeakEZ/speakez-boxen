@@ -52,6 +52,7 @@ github "chrome",     "1.0.0"
 github "virtualbox", "1.0.0"
 github "things",         "1.0.0"
 github "sublime_text_2", "1.0.0"
+github "phantomjs",      "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

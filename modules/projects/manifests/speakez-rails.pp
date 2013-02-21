@@ -1,5 +1,6 @@
 class projects::speakez-rails {
   include icu4c
+  include phantomjs
 
   heroku::plugin { 'accounts':
 	  source => 'ddollar/heroku-accounts'

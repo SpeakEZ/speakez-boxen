@@ -89,6 +89,11 @@ GITHUBTARBALL
     nvm (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-phantomjs
+  specs:
+    phantomjs (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-postgresql
   specs:
     postgresql (1.0.0)
@@ -178,6 +183,7 @@ DEPENDENCIES
   nginx (= 1.0.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
+  phantomjs (= 1.0.0)
   postgresql (= 1.0.0)
   propane (= 1.0.0)
   python (= 1.0.1)
