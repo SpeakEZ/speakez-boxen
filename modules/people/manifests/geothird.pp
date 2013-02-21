@@ -15,7 +15,6 @@ class people::geothird {
   $dotfiles = "${code}/dotfiles"
 
   repository { $dotfiles:
-    source  => 'geothird/dotfiles',
-    require => File[$code]
+    source  => 'geothird/dotfiles'
   }
 }

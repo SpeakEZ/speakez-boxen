@@ -74,7 +74,7 @@ node default {
   include ruby::1-9-3
 
   # SpeakEZ Projects
-  include speakez-rails
+  include projects::speakez-rails
 
   # common, useful packages
   package {
