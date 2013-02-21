@@ -7,11 +7,11 @@ class people::ahaymond {
   include chrome
 #  include chrome::dev
 
-  $home     = "/Users/${::luser}"
+  $home     = "/Users/ode"
   $code       = "${home}/Documents"
   $dotfiles = "${code}/dotfiles"
 
   repository { $dotfiles:
-    source  => 'ode/dotfiles'
+    source  => 'ahaymond/dotfiles'
   }
 }
