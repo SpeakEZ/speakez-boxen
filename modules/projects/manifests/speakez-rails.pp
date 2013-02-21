@@ -9,6 +9,10 @@ class projects::speakez-rails {
 	  source => 'ddollar/heroku-accounts'
 	}
 
+  heroku::plugin { 'accounts':
+	  source => 'ddollar/heroku-accounts'
+	}
+
   boxen::project { 'speakez-rails':
     nginx         => true,
     ruby          => '1.9.3',

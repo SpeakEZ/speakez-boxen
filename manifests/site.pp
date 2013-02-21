@@ -55,6 +55,8 @@ node default {
   include hub
   include nginx
   include nvm
+  include ruby
+  include propane
 
   # fail if FDE is not enabled
   #if $::root_encrypted == 'no' {
@@ -70,7 +72,12 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+<<<<<<< HEAD
 
+=======
+  # SpeakEZ Projects
+  include speakez-rails
+>>>>>>> Added: multiple libraries to puppetfile.
 
   # common, useful packages
   package {
