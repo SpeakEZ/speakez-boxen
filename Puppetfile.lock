@@ -107,6 +107,11 @@ GITHUBTARBALL
     nvm (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-phantomjs
+  specs:
+    phantomjs (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-postgresql
   specs:
     postgresql (1.0.0)
@@ -189,8 +194,8 @@ GITHUBTARBALL
     stdlib (3.0.0)
 
 DEPENDENCIES
-<<<<<<< HEAD
   boxen (= 1.2.0)
+<<<<<<< HEAD
 <<<<<<< HEAD
   dnsmasq (= 1.0.0)
   emacs (= 1.0.0)
@@ -209,6 +214,8 @@ DEPENDENCIES
   nodejs (= 1.0.0)
   notational_velocity (= 1.1.0)
   nvm (= 1.0.0)
+=======
+>>>>>>> added: Phantomjs required for guard-jasmine
   ruby (= 3.1.0)
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.0.0)
