@@ -9,11 +9,14 @@ GITHUBTARBALL
     boxen (1.2.0)
 
 GITHUBTARBALL
+<<<<<<< HEAD
   remote: boxen/puppet-caffeine
   specs:
     caffeine (1.0.0)
 
 GITHUBTARBALL
+=======
+>>>>>>> Modified: Puppetfile for new packages
   remote: boxen/puppet-chrome
   specs:
     chrome (1.0.0)
@@ -64,6 +67,21 @@ GITHUBTARBALL
     icu4c (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.0.5)
+
+GITHUBTARBALL
+  remote: boxen/puppet-macvim
+  specs:
+    macvim (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-minecraft
+  specs:
+    minecraft (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-mysql
   specs:
     mysql (1.0.0)
@@ -89,6 +107,21 @@ GITHUBTARBALL
     nvm (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-postgresql
+  specs:
+    postgresql (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-propane
+  specs:
+    propane (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-python
+  specs:
+    python (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
     redis (1.0.0)
@@ -97,6 +130,16 @@ GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (3.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sparrow
+  specs:
+    sparrow (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sublime_text_2
+  specs:
+    sublime_text_2 (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -116,7 +159,11 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
+<<<<<<< HEAD
     virtualbox (1.0.1)
+=======
+    virtualbox (1.0.0)
+>>>>>>> Modified: Puppetfile for new packages
 
 GITHUBTARBALL
   remote: boxen/puppet-vlc
@@ -124,11 +171,14 @@ GITHUBTARBALL
     vlc (1.0.0)
 
 GITHUBTARBALL
+<<<<<<< HEAD
   remote: boxen/puppet-wget
   specs:
     wget (1.0.0)
 
 GITHUBTARBALL
+=======
+>>>>>>> Modified: Puppetfile for new packages
   remote: cprice-puppet/puppetlabs-inifile
   specs:
     inifile (0.9.0)
@@ -139,11 +189,18 @@ GITHUBTARBALL
     stdlib (3.0.0)
 
 DEPENDENCIES
+<<<<<<< HEAD
   boxen (= 1.2.0)
+<<<<<<< HEAD
   dnsmasq (= 1.0.0)
   emacs (= 1.0.0)
   gcc (= 1.0.0)
   git (= 1.0.0)
+=======
+=======
+  boxen (= 1.0.2)
+  chrome (= 1.0.0)
+>>>>>>> Modified: Puppetfile for new packages
   homebrew (= 1.1.2)
   hub (= 1.0.0)
   icu4c (= 1.0.0)
@@ -158,7 +215,12 @@ DEPENDENCIES
   sudo (= 1.0.0)
   sysctl (= 1.0.0)
   things (= 1.0.0)
+<<<<<<< HEAD
   virtualbox (= 1.0.1)
   vlc (= 1.0.0)
   wget (= 1.0.0)
+=======
+  virtualbox (= 1.0.0)
+  vlc (= 1.0.0)
+>>>>>>> Modified: Puppetfile for new packages
 
