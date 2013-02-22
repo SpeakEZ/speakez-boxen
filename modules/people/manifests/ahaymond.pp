@@ -15,8 +15,8 @@ class people::ahaymond {
     source  => 'ahaymond/dotfiles'
   }
 
-  file { "${dotfiles}/.bashrc":
+  file { "${home}/.bashrc":
     ensure => link,
-    target => "${home}/.bashrc"
+    target => "${dotfiles}/.bashrc"
   }
 }
