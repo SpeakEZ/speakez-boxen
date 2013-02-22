@@ -19,8 +19,14 @@ class people::ahaymond {
     ensure => link,
     target => "${dotfiles}/.bashrc"
   }
+
+  file { "#{home}/.gemrc":
+    ensure => present,
+  }
+
   file { "${home}/.gemrc":
     ensure => link,
+    replace => true,
     target => "${dotfiles}/.gemrc"
   }
   file { "${home}/.gitconfig":
