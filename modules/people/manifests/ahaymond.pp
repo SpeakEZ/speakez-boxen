@@ -19,16 +19,10 @@ class people::ahaymond {
     ensure => link,
     target => "${dotfiles}/.bashrc"
   }
-
-  file { "#{home}/.gemrc":
-    ensure => present,
-  }
-
-  file { "${home}/.gemrc":
-    ensure => link,
-    force => true,
-    target => "${dotfiles}/.gemrc"
-  }
+  # file { "${home}/.gemrc":
+  #   ensure => link,
+  #   target => "${dotfiles}/.gemrc"
+  # }
   file { "${home}/.gitconfig":
     ensure => link,
     target => "${dotfiles}/.gitconfig"
@@ -43,6 +37,6 @@ class people::ahaymond {
   }
   file { "${home}/.vimrc":
     ensure => link,
-    target => "${dotfiles}/.vimrc"
+    target => "${dotfiles}/.bashrc"
   }
 }
