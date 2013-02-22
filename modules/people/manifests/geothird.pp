@@ -11,6 +11,12 @@ class people::geothird {
   include chrome
 #  include chrome::dev
 
+  # Include my projects
+  include projects::speakez
+  include projects::speakez-ios
+  include projects::canvas-lms
+  include projects::milbot
+
   $home     = "/Users/${::luser}"
   $code     = "${home}/code"
   $dotfiles = "${code}/dotfiles"
