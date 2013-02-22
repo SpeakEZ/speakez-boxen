@@ -37,6 +37,6 @@ class people::ahaymond {
   }
   file { "${home}/.vimrc":
     ensure => link,
-    target => "${dotfiles}/.bashrc"
+    target => "${dotfiles}/.vimrc"
   }
 }
