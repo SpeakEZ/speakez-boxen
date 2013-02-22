@@ -14,4 +14,9 @@ class people::ahaymond {
   repository { $dotfiles:
     source  => 'ahaymond/dotfiles'
   }
+
+  file { "${dotfiles}/.bashrc":
+    ensure => link,
+    target => "${home}/.bashrc"
+  }
 }
