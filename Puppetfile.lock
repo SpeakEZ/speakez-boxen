@@ -4,6 +4,11 @@ GITHUBTARBALL
     boxen (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-caffeine
+  specs:
+    caffeine (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.0.0)
@@ -119,11 +124,6 @@ GITHUBTARBALL
     ruby (3.0.2)
 
 GITHUBTARBALL
-  remote: boxen/puppet-rubymine
-  specs:
-    rubymine (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-sparrow
   specs:
     sparrow (1.0.0)
@@ -170,6 +170,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 1.0.2)
+  caffeine (= 1.0.0)
   chrome (= 1.0.0)
   dnsmasq (= 1.0.0)
   emacs (= 1.0.0)
@@ -194,7 +195,6 @@ DEPENDENCIES
   python (= 1.0.1)
   redis (= 1.0.0)
   ruby (= 3.0.2)
-  rubymine (= 1.0.0)
   sparrow (= 1.0.0)
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.0.0)

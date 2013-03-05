@@ -32,8 +32,4 @@ class people::steptan {
   repository { $dotfiles:
     source  => 'geothird/dotfiles'
   }
-
-  exec { "set global ruby version":
-    command => "rbenv global ${rubyversion}"
-  }
 }
