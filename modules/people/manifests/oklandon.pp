@@ -4,7 +4,7 @@ class people::oklandon {
   include sublime_text_2
   include chrome
 
-  $home     = "/Users/oklandon"
+  $home     = "/Users/landonyoung"
   $sublime_home = "${home}/Library/Application\\ Support/Sublime\\ Text\\ 2/"
 
   # Add RubyTest to Sublime text packages
