@@ -5,6 +5,7 @@ class people::ahaymond {
   include sublime_text_2
   include chrome
   include caffeine
+#  include chrome::dev
 
   $home     = "/Users/${::luser}"
   $code       = "${home}/code"
