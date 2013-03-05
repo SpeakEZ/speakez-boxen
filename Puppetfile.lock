@@ -141,6 +141,11 @@ GITHUBTARBALL
 >>>>>>> Still attempting to upgrade to Ruby 2.0
 
 GITHUBTARBALL
+  remote: boxen/puppet-rubymine
+  specs:
+    rubymine (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sparrow
   specs:
     sparrow (1.0.0)

@@ -6,10 +6,9 @@ class people::ahaymond {
   include chrome
   include caffeine
 
-  $home     = "/Users/ode"
-  $code       = "${home}/Documents"
+  $home     = "/Users/${::luser}"
+  $code       = "${home}/code"
   $dotfiles = "${code}/dotfiles"
-  $rubyversion = '2.0.0'
 
   package {
     [
@@ -67,9 +66,5 @@ class people::ahaymond {
   # Add RubyTest to Sublime text packages
   repository { "$sublime_home/Packages/RubyTest":
     source => 'maltize/sublime-text-2-ruby-tests'
-  }
-
-  exec { "set global ruby version":
-    command => "rbenv global ${rubyversion}"
   }
 }
