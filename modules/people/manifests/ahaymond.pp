@@ -18,6 +18,10 @@ class people::ahaymond {
     ]:
   }
 
+  file { "${code}":
+    ensure => "directory"
+  }
+
   repository { $dotfiles:
     source  => 'ahaymond/dotfiles'
   }
