@@ -34,6 +34,10 @@ class people::geothird {
     source  => 'geothird/dotfiles'
   }
 
+  repository { "${boxen::config::srcdir}/touchpunch-rails":
+    source => 'geothird/touchpunch-rails'
+  }
+
   exec { "set global ruby version":
     command => "rbenv global ${rubyversion}"
   }
