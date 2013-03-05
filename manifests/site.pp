@@ -89,3 +89,7 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+class {'ruby::global':
+  version => '2.0.0'
+}

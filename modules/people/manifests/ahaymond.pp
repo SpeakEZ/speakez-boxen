@@ -7,10 +7,9 @@ class people::ahaymond {
   include chrome
 #  include chrome::dev
 
-  $home     = "/Users/ode"
-  $code       = "${home}/Documents"
+  $home     = "/Users/${::luser}"
+  $code       = "${home}/code"
   $dotfiles = "${code}/dotfiles"
-  $rubyversion = '2.0.0'
 
   package {
     [
@@ -42,9 +41,5 @@ class people::ahaymond {
   file { "${home}/.vimrc":
     ensure => link,
     target => "${dotfiles}/.vimrc"
-  }
-
-  exec { "set global ruby version":
-    command => "rbenv global ${rubyversion}"
   }
 }
