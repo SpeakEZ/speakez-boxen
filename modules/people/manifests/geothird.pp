@@ -20,6 +20,7 @@ class people::geothird {
   $home     = "/Users/${::luser}"
   $code     = "${home}/code"
   $dotfiles = "${code}/dotfiles"
+  $rubyversion = '2.0.0'
 
   # Homebrew packages to install
   package {
@@ -31,5 +32,9 @@ class people::geothird {
 
   repository { $dotfiles:
     source  => 'geothird/dotfiles'
+  }
+
+  exec { "set global ruby version":
+    command => "rbenv global ${rubyversion}"
   }
 }

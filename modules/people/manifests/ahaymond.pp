@@ -10,6 +10,14 @@ class people::ahaymond {
   $home     = "/Users/ode"
   $code       = "${home}/Documents"
   $dotfiles = "${code}/dotfiles"
+  $rubyversion = '2.0.0'
+
+  package {
+    [
+      'bash-completion',
+      'htop-osx'
+    ]:
+  }
 
   repository { $dotfiles:
     source  => 'ahaymond/dotfiles'
@@ -19,10 +27,6 @@ class people::ahaymond {
     ensure => link,
     target => "${dotfiles}/.bashrc"
   }
-  # file { "${home}/.gemrc":
-  #   ensure => link,
-  #   target => "${dotfiles}/.gemrc"
-  # }
   file { "${home}/.gitconfig":
     ensure => link,
     target => "${dotfiles}/.gitconfig"
@@ -38,5 +42,9 @@ class people::ahaymond {
   file { "${home}/.vimrc":
     ensure => link,
     target => "${dotfiles}/.vimrc"
+  }
+
+  exec { "set global ruby version":
+    command => "rbenv global ${rubyversion}"
   }
 }
