@@ -17,10 +17,8 @@ class people::geothird {
   include projects::canvas-lms
   include projects::milbot
 
-  $home     = "/Users/${::luser}"
-  $code     = "${home}/code"
-  $dotfiles = "${code}/dotfiles"
-  $rubyversion = '2.0.0'
+  $home     = "/Users/geo"
+  $sublime_home = "${home}/Library/Application\\ Support/Sublime\\ Text\\ 2/"
 
   # Homebrew packages to install
   package {
@@ -30,15 +28,53 @@ class people::geothird {
     ]:
   }
 
-  repository { $dotfiles:
+  # Dotfiles config
+  repository { "${boxen::config::srcdir}/dotfiles":
     source  => 'geothird/dotfiles'
   }
 
+  # Touch punch support for rails
   repository { "${boxen::config::srcdir}/touchpunch-rails":
     source => 'geothird/touchpunch-rails'
   }
 
-  exec { "set global ruby version":
-    command => "rbenv global ${rubyversion}"
+  # Canvas lti gem
+  repository { "${boxen::config::srcdir}/ims-lti":
+    source => 'geothird/ims-lti'
+  }
+
+  # Linguist for adding syntax emojies etc gem
+  repository { "${boxen::config::srcdir}/linguist":
+    source => 'geothird/linguist'
+  }
+
+  # Charlock holmes for linquist
+  repository { "${boxen::config::srcdir}/charlock_holmes":
+    source => 'geothird/charlock_holmes'
+  }
+
+  # Slugs for urls gem
+  repository { "${boxen::config::srcdir}/friendly_id":
+    source => 'geothird/friendly_id'
+  }
+
+  # Add list positioning to a model gem
+  repository { "${boxen::config::srcdir}/acts_as_list":
+    source => 'geothird/acts_as_list'
+  }
+
+  # Rails object versioning gem
+  repository { "${boxen::config::srcdir}/vestal_versions":
+    source => 'geothird/vestal_versions'
+  }
+
+  # Hubot scripts
+  repository { "${boxen::config::srcdir}/hubot-scripts":
+    source => 'geothird/hubot-scripts'
+  }
+
+  # Add RubyTest to Sublime text packages
+  repository { "$sublime_home/Packages/RubyTest":
+    source => 'maltize/sublime-text-2-ruby-tests'
   }
 }
