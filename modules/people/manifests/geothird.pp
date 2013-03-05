@@ -28,6 +28,27 @@ class people::geothird {
     ]:
   }
 
+  # Create symlinks
+  file { "${home}/.bashrc":
+    ensure => link,
+    target => "${boxen::config::srcdir}/dotfiles/.bashrc"
+  }
+
+  file { "${home}/.bashrc":
+    ensure => link,
+    target => "${boxen::config::srcdir}/dotfiles/.bashrc"
+  }
+
+  file { "${home}/.emacs":
+    ensure => link,
+    target => "${boxen::config::srcdir}/dotfiles/.emacs"
+  }
+
+  file { "${home}/.emacs.d":
+    ensure => link,
+    target => "${boxen::config::srcdir}/dotfiles/.emacs.d"
+  }
+
   # Dotfiles config
   repository { "${boxen::config::srcdir}/dotfiles":
     source  => 'geothird/dotfiles'
