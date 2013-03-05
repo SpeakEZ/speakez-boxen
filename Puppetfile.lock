@@ -134,7 +134,11 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
+<<<<<<< HEAD
     ruby (3.1.0)
+=======
+    ruby (3.0.2)
+>>>>>>> Still attempting to upgrade to Ruby 2.0
 
 GITHUBTARBALL
   remote: boxen/puppet-sparrow
