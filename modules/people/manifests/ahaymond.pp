@@ -12,9 +12,9 @@ class people::ahaymond {
 
 
   $home     = "/Users/${::luser}"
-  $code       = "${home}/code"
-  $dotfiles = "${code}/dotfiles"
+  $sublime_home = "${home}/Library/Application\\ Support/Sublime\\ Text\\ 2/"
 
+  # Homebrew packages to install
   package {
     [
       'bash-completion',
@@ -22,32 +22,34 @@ class people::ahaymond {
     ]:
   }
 
-  file { "${code}":
-    ensure => "directory"
-  }
-
-  repository { $dotfiles:
+  # Dotfiles config
+  repository { "${boxen::config::srcdir}/dotfiles":
     source  => 'ahaymond/dotfiles'
   }
 
+  # Create Symlinks
   file { "${home}/.bashrc":
     ensure => link,
-    target => "${dotfiles}/.bashrc"
+    target => "${boxen::config::srcdir}/dotfiles/.bashrc"
   }
-  file { "${home}/.gitconfig":
-    ensure => link,
-    target => "${dotfiles}/.gitconfig"
-  }
+
   file { "${home}/.gitignore":
     ensure => link,
-    target => "${dotfiles}/.gitignore"
+    target => "${boxen::config::srcdir}/dotfiles/.gitignore"
   }
+
   file { "${home}/.irbrc":
     ensure => link,
-    target => "${dotfiles}/.irbrc"
+    target => "${boxen::config::srcdir}/dotfiles/.irbrc"
   }
+
   file { "${home}/.vimrc":
     ensure => link,
-    target => "${dotfiles}/.vimrc"
+    target => "${boxen::config::srcdir}/dotfiles/.vimrc"
+  }
+
+  # Add RubyTest to Sublime text packages
+  repository { "$sublime_home/Packages/RubyTest":
+    source => 'maltize/sublime-text-2-ruby-tests'
   }
 }
