@@ -13,7 +13,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "1.0.2"
+github "boxen", "1.2.0"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -62,6 +62,6 @@ github "notational_velocity", "1.1.0"
 github "mongodb",    "1.0.0"
 github "wget",       "1.0.0"
 
-# Error: Could not find class iterm2 for 
+# Error: Could not find class iterm2 for
 # stephens-macbook-pro.local on node
 # stephens-macbook-pro.local

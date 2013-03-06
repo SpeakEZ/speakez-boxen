@@ -6,7 +6,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (1.0.2)
+    boxen (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-caffeine
@@ -51,7 +51,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.0.0)
+    homebrew (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -96,7 +96,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.0.0)
+    nginx (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
@@ -141,6 +141,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
+<<<<<<< HEAD
     ruby (3.0.2)
 
 GITHUBTARBALL
@@ -152,6 +153,9 @@ GITHUBTARBALL
   remote: boxen/puppet-sublime_text_2
   specs:
     sublime_text_2 (1.0.0)
+=======
+    ruby (3.1.0)
+>>>>>>> Bump modules
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -194,37 +198,20 @@ GITHUBTARBALL
     stdlib (3.0.0)
 
 DEPENDENCIES
-  autojump (= 1.0.0)
-  boxen (= 1.0.2)
-  caffeine (= 1.0.0)
-  chrome (= 1.0.0)
+  boxen (= 1.2.0)
   dnsmasq (= 1.0.0)
   emacs (= 1.0.0)
   gcc (= 1.0.0)
   git (= 1.0.0)
-  handbrake (= 1.0.0)
-  heroku (= 1.0.0)
-  homebrew (= 1.0.0)
+  homebrew (= 1.1.0)
   hub (= 1.0.0)
   icu4c (= 1.0.0)
   inifile (= 0.9.0)
-  iterm2 (= 1.0.1)
-  java (= 1.0.5)
-  macvim (= 1.0.0)
-  minecraft (= 1.0.0)
-  mongodb (= 1.0.0)
-  mysql (= 1.0.0)
-  nginx (= 1.0.0)
+  nginx (= 1.1.0)
   nodejs (= 1.0.0)
   notational_velocity (= 1.1.0)
   nvm (= 1.0.0)
-  phantomjs (= 1.0.0)
-  postgresql (= 1.0.0)
-  propane (= 1.0.0)
-  python (= 1.0.1)
-  redis (= 1.0.0)
-  ruby (= 3.0.2)
-  sparrow (= 1.0.0)
+  ruby (= 3.1.0)
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.0.0)
   sudo (= 1.0.0)
