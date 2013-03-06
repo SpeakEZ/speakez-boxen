@@ -29,7 +29,8 @@ class people::steptan {
     ]:
   }
 
-  repository { $dotfiles:
-    source  => 'geothird/dotfiles'
+  # repository { $dotfiles:
+  #   source  => 'geothird/dotfiles'
+  # }
   }
 }
