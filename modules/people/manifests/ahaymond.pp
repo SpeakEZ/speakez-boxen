@@ -48,6 +48,11 @@ class people::ahaymond {
     target => "${boxen::config::srcdir}/dotfiles/.vimrc"
   }
 
+  file { "${home}/git-completion.bash":
+    ensure => link,
+    target => "${boxen::config::srcdir}/dotfiles/git-completion.bash"
+  }
+
   # Add RubyTest to Sublime text packages
   repository { "$sublime_home/Packages/RubyTest":
     source => 'maltize/sublime-text-2-ruby-tests'
