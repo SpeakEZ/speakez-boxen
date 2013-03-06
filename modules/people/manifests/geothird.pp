@@ -9,16 +9,10 @@ class people::geothird {
   include vlc
   include sublime_text_2
   include chrome
-#  include chrome::dev
-
-  # Include my projects
-  include projects::speakez
-  include projects::speakez-ios
-  include projects::canvas-lms
-  include projects::milbot
+  include chrome::dev
 
   # SpeakEZ Projects
-  include projects::speakez-rails
+  include projects::all
 
   $home     = "/Users/${::luser}"
   $sublime_home = "${home}/Library/Application\\ Support/Sublime\\ Text\\ 2/"
@@ -45,6 +39,16 @@ class people::geothird {
   file { "${home}/.emacs.d":
     ensure => link,
     target => "${boxen::config::srcdir}/dotfiles/.emacs.d"
+  }
+
+  file { "${home}/.irbrc":
+    ensure => link,
+    target => "${boxen::config::srcdir}/dotfiles/.irbrc"
+  }
+
+  file { "${home}/.vimrc":
+    ensure => link,
+    target => "${boxen::config::srcdir}/dotfiles/.vimrc"
   }
 
   # Dotfiles config
