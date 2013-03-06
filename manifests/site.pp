@@ -72,16 +72,6 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
-<<<<<<< HEAD
-
-=======
-  # SpeakEZ Projects
-<<<<<<< HEAD
-  include speakez-rails
->>>>>>> Added: multiple libraries to puppetfile.
-=======
-  include projects::speakez-rails
->>>>>>> Modified: Puppetfile for new packages
 
   # common, useful packages
   package {

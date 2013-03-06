@@ -14,6 +14,9 @@ class people::geothird {
   # SpeakEZ Projects
   include projects::all
 
+  # SpeakEZ Projects
+  include projects::speakez-rails
+
   $home     = "/Users/${::luser}"
   $sublime_home = "${home}/Library/Application\\ Support/Sublime\\ Text\\ 2/"
 
