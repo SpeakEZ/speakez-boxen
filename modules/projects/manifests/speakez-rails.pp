@@ -3,6 +3,7 @@ class projects::speakez-rails {
   include phantomjs
   include stdlib
   include mysql
+  include postgresql
 
   heroku::plugin { 'accounts':
 	  source => 'ddollar/heroku-accounts'

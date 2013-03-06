@@ -34,6 +34,11 @@ github "ruby",       "3.0.2"
 github "stdlib",     "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sysctl",     "1.0.0"
 github "sudo",       "1.0.0"
+
+
+# Optional/custom modules. There are tons available at
+# https://github.com/boxen.
+
 github "icu4c",      "1.0.0"
 github "mysql",      "1.0.0"
 github "redis",      "1.0.0"
@@ -54,6 +59,3 @@ github "caffeine",	 "1.0.0"
 github "things",         "1.0.0"
 github "sublime_text_2", "1.0.0"
 github "phantomjs",      "1.0.0"
-
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.

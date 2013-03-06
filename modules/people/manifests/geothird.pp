@@ -17,7 +17,10 @@ class people::geothird {
   include projects::canvas-lms
   include projects::milbot
 
-  $home     = "/Users/geo"
+  # SpeakEZ Projects
+  include projects::speakez-rails
+
+  $home     = "/Users/${::luser}"
   $sublime_home = "${home}/Library/Application\\ Support/Sublime\\ Text\\ 2/"
 
   # Homebrew packages to install

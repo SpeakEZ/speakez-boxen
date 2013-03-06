@@ -1,4 +1,4 @@
-class people::milesvictors {
+class people::kirtjMIL {
   include stdlib
   include sysctl
   include sublime_text_2

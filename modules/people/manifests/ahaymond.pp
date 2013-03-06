@@ -5,7 +5,11 @@ class people::ahaymond {
   include sublime_text_2
   include chrome
   include caffeine
-#  include chrome::dev
+
+
+  # SpeakEZ Projects
+  include projects::all
+
 
   $home     = "/Users/${::luser}"
   $code       = "${home}/code"

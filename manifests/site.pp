@@ -57,8 +57,6 @@ node default {
   include nvm
   include ruby
   include propane
-  include postgresql
-  include phantomjs
 
   # fail if FDE is not enabled
   #if $::root_encrypted == 'no' {
@@ -74,8 +72,7 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
-  # SpeakEZ Projects
-  include projects::speakez-rails
+
 
   # common, useful packages
   package {

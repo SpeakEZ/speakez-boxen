@@ -6,4 +6,7 @@ class people::captbrogers {
   include vlc
   include sublime_text_2
   include chrome
+
+  # SpeakEZ Projects
+  include projects::speakez-rails
 }
