@@ -1,7 +1,6 @@
 class people::ahaymond {
   include stdlib
   include sysctl
-  include minecraft
   include virtualbox
   include sublime_text_2
   include chrome

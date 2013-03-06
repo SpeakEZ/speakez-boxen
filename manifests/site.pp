@@ -57,6 +57,8 @@ node default {
   include nvm
   include ruby
   include propane
+  include postgresql
+  include phantomjs
 
   # fail if FDE is not enabled
   #if $::root_encrypted == 'no' {
