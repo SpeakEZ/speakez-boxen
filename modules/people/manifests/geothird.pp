@@ -37,11 +37,6 @@ class people::geothird {
     target => "${boxen::config::srcdir}/dotfiles/.bashrc"
   }
 
-  file { "${home}/.bashrc":
-    ensure => link,
-    target => "${boxen::config::srcdir}/dotfiles/.bashrc"
-  }
-
   file { "${home}/.emacs":
     ensure => link,
     target => "${boxen::config::srcdir}/dotfiles/.emacs"
