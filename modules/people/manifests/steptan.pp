@@ -7,6 +7,7 @@ class people::steptan {
   include sublime_text_2
   include chrome
   include macvim
+  include mysql
 #  include chrome::dev
 
   # Include my projects
