@@ -8,6 +8,7 @@ class people::steptan {
   include chrome
   include macvim
   include mysql
+  include autojump
 #  include chrome::dev
 
   # Include my projects
