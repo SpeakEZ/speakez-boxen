@@ -9,16 +9,19 @@ class people::steptan {
   include macvim
   include mysql
   include autojump
-  include iterm2
   include caffeine
   include virtualbox
-#  include chrome::dev
+  include iterm2::dev
+  include notational_velocity::nvalt
+  include mongodb
+  include wget
 
   # Include my projects
   include projects::speakez
   include projects::speakez-ios
   include projects::canvas-lms
   include projects::milbot
+
 
   $home     = "/Users/${::luser}"
   #$home     = "/Users/sfelt"

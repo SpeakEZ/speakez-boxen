@@ -54,13 +54,17 @@ github "handbrake",  "1.0.0"
 github "java",       "1.0.5"
 github "python",     "1.0.1"
 github "chrome",     "1.0.0"
-github "virtualbox", "1.0.0"
-github "caffeine",	 "1.0.0"
+github "virtualbox", "1.0.1"
+github "caffeine",   "1.0.0"
 github "things",     "1.0.0"
 github "sublime_text_2", "1.0.0"
 github "phantomjs",  "1.0.0"
 github "autojump",   "1.0.0"
 github "iterm2",     "1.0.1"
+github "notational_velocity", "1.1.0"
+github "mongodb",    "1.0.0"
 github "wget",       "1.0.0"
-github "caffeine",   "1.0.0"
-github "virtualbox", "1.0.1"
+
+# Error: Could not find class iterm2 for 
+# stephens-macbook-pro.local on node
+# stephens-macbook-pro.local
