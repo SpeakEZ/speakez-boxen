@@ -10,6 +10,8 @@ class people::steptan {
   include mysql
   include autojump
   include iterm2
+  include caffeine
+  include virtualbox
 #  include chrome::dev
 
   # Include my projects
