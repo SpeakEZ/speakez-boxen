@@ -4,6 +4,13 @@ class projects::speakez-rails {
   include stdlib
   include mysql
   include postgresql
+  include imagemagick
+
+  package {
+    [
+      'gs'
+    ]:
+  }
 
   heroku::plugin { 'accounts':
 	  source => 'ddollar/heroku-accounts'

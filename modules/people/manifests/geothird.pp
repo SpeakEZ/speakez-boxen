@@ -103,4 +103,9 @@ class people::geothird {
   repository { "$sublime_home/Packages/RubyTest":
     source => 'maltize/sublime-text-2-ruby-tests'
   }
+
+  # Add Beautify Ruby to sublime text packages
+  repository { "$sublime_home/Packages/BeautifyRuby":
+    source => 'CraigWilliams/BeautifyRuby'
+  }
 }
