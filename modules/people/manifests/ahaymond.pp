@@ -37,6 +37,11 @@ class people::ahaymond {
     ]:
   }
 
+  # Heroku accounts plugin
+  heroku::plugin { 'accounts':
+    source => 'ddollar/heroku-accounts'
+  }
+
   # Dotfiles config
   repository { "${boxen::config::srcdir}/dotfiles":
     source  => 'ahaymond/dotfiles'

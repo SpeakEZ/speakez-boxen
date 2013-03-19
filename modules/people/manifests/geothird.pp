@@ -28,6 +28,11 @@ class people::geothird {
     ]:
   }
 
+  # Heroku accounts plugin
+  heroku::plugin { 'accounts':
+    source => 'ddollar/heroku-accounts'
+  }
+
   # Create symlinks
   file { "${home}/.bashrc":
     ensure => link,

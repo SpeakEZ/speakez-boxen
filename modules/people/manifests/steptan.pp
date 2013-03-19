@@ -37,6 +37,11 @@ class people::steptan {
     ]:
   }
 
+  # Heroku accounts plugin
+  heroku::plugin { 'accounts':
+    source => 'ddollar/heroku-accounts'
+  }
+
   # repository { $dotfiles:
   #   source  => 'geothird/dotfiles'
   # }
