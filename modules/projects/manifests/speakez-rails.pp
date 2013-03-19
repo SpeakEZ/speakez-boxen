@@ -1,16 +1,11 @@
 class projects::speakez-rails {
+  include ruby
   include icu4c
   include phantomjs
   include stdlib
   include mysql
   include postgresql
-  include imagemagick
-
-  package {
-    [
-      'gs'
-    ]:
-  }
+  include propane
 
   heroku::plugin { 'accounts':
 	  source => 'ddollar/heroku-accounts'
