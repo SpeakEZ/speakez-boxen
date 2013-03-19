@@ -6,25 +6,8 @@ class people::ahaymond {
   include chrome
   include caffeine
 
-
   # SpeakEZ Projects
   include projects::all
-
-
-  $home     = "/Users/${::luser}"
-  $code       = "${home}/code"
-  $dotfiles = "${code}/dotfiles"
-
-  package {
-    [
-      'bash-completion',
-      'htop-osx'
-    ]:
-  }
-
-  # SpeakEZ Projects
-  include projects::all
-
 
   $home     = "/Users/${::luser}"
   $sublime_home = "${home}/Library/Application\\ Support/Sublime\\ Text\\ 2/"

@@ -16,18 +16,8 @@ class people::steptan {
   include mongodb
   include wget
 
-  # Include my projects
-  include projects::speakez
-  include projects::speakez-ios
-  include projects::canvas-lms
-  include projects::milbot
-
-
-  $home     = "/Users/${::luser}"
-  #$home     = "/Users/sfelt"
-  $code     = "${home}/code"
-  $dotfiles = "${code}/dotfiles"
-  $rubyversion = '2.0.0'
+  # SpeakEZ Projects
+  include projects::all
 
   # Homebrew packages to install
   package {
@@ -42,7 +32,4 @@ class people::steptan {
     source => 'ddollar/heroku-accounts'
   }
 
-  # repository { $dotfiles:
-  #   source  => 'geothird/dotfiles'
-  # }
 }
