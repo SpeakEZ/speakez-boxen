@@ -9,24 +9,9 @@ GITHUBTARBALL
     boxen (1.2.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-caffeine
-  specs:
-    caffeine (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-chrome
-  specs:
-    chrome (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-emacs
-  specs:
-    emacs (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -39,16 +24,6 @@ GITHUBTARBALL
     git (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-handbrake
-  specs:
-    handbrake (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-heroku
-  specs:
-    heroku (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.1.2)
@@ -57,31 +32,6 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-icu4c
-  specs:
-    icu4c (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-java
-  specs:
-    java (1.0.5)
-
-GITHUBTARBALL
-  remote: boxen/puppet-macvim
-  specs:
-    macvim (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-minecraft
-  specs:
-    minecraft (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-mysql
-  specs:
-    mysql (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -104,31 +54,6 @@ GITHUBTARBALL
     nvm (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-phantomjs
-  specs:
-    phantomjs (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-postgresql
-  specs:
-    postgresql (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-propane
-  specs:
-    propane (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-python
-  specs:
-    python (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-redis
-  specs:
-    redis (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (3.1.0)
@@ -149,31 +74,6 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-sysctl
-  specs:
-    sysctl (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-things
-  specs:
-    things (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-virtualbox
-  specs:
-    virtualbox (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-vlc
-  specs:
-    vlc (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-wget
-  specs:
-    wget (1.0.0)
-
-GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
   specs:
     inifile (0.9.0)
@@ -186,24 +86,14 @@ GITHUBTARBALL
 DEPENDENCIES
   boxen (= 1.2.0)
   dnsmasq (= 1.0.0)
-  emacs (= 1.0.0)
   gcc (= 1.0.0)
   git (= 1.0.0)
   homebrew (= 1.1.2)
   hub (= 1.0.0)
-  icu4c (= 1.0.0)
   inifile (= 0.9.0)
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
-  notational_velocity (= 1.1.0)
   nvm (= 1.0.0)
   ruby (= 3.1.0)
   stdlib (= 3.0.0)
-  sublime_text_2 (= 1.0.0)
   sudo (= 1.0.0)
-  sysctl (= 1.0.0)
-  things (= 1.0.0)
-  virtualbox (= 1.0.1)
-  vlc (= 1.0.0)
-  wget (= 1.0.0)
-
