@@ -5,7 +5,6 @@ class projects::speakez-rails {
   include stdlib
   include mysql
   include postgresql
-  include imagemagick
   include propane
 
   boxen::project { 'speakez-rails':
