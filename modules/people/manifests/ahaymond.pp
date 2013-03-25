@@ -3,6 +3,7 @@ class people::ahaymond {
   include sysctl
   include virtualbox
   include sublime_text_2
+  include vlc
   include chrome
   include caffeine
 
