@@ -9,7 +9,7 @@ class people::mryanmay {
   include projects::speakez-rails
 
   $home     = "/Users/${::luser}"
-  $sublime_home = "${home}/Library/Application\\ Support/Sublime\\ Text\\ 2/"
+  $sublime_home = "${home}/Library/Application\sSupport/Sublime\sText\s2/"
 
   package {
     [

@@ -18,7 +18,7 @@ class people::geothird {
   include projects::speakez-rails
 
   $home     = "/Users/${::luser}"
-  $sublime_home = "${home}/Library/Application\\ Support/Sublime\\ Text\\ 2/"
+  $sublime_home = "${home}/Library/Application\sSupport/Sublime\sText\s2/"
 
   # Homebrew packages to install
   package {
