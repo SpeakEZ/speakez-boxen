@@ -17,7 +17,8 @@ class people::ahaymond {
   package {
     [
       'bash-completion',
-      'htop-osx'
+      'htop-osx',
+      'git-flow'
     ]:
   }
 
