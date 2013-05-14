@@ -1,4 +1,3 @@
-# PP
 class people::StevenEinar {
   include stdlib
   include sysctl
