@@ -10,6 +10,7 @@ class projects::speakez-rails {
   boxen::project { 'speakez-rails':
     nginx         => true,
     ruby          => '1.9.3',
+    redis         => true,
     source        => 'SpeakEZ/speakez-rails'
   }
 }
