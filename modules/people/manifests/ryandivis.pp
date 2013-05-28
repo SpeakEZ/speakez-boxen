@@ -1,4 +1,4 @@
-class people::StevenEinar {
+class people::ryandivis {
   include stdlib
   include sysctl
   include sublime_text_2
@@ -6,7 +6,6 @@ class people::StevenEinar {
 
   # include SpeakeEZ-Rails project
   include projects::speakez-rails
-
   # include Speakez flash project
   include projects::speakez
 
