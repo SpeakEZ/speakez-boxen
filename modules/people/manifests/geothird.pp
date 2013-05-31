@@ -10,6 +10,7 @@ class people::geothird {
   include sublime_text_2
   include chrome
   include chrome::dev
+  include python
 
   # SpeakEZ Projects
   include projects::all
