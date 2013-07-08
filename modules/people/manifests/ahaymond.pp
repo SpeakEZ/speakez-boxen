@@ -1,5 +1,6 @@
 class people::ahaymond {
   include stdlib
+  include elasticsearch
   include sysctl
   include virtualbox
   include sublime_text_2
