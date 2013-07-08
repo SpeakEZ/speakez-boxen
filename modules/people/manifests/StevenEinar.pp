@@ -3,6 +3,7 @@ class people::StevenEinar {
   include sysctl
   include sublime_text_2
   include chrome
+  include elasticsearch
 
   # include SpeakeEZ-Rails project
   include projects::speakez-rails
