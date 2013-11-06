@@ -1,9 +1,9 @@
-class people::StevenEinar {
+class people::steveneinar {
   include stdlib
   include sysctl
   include sublime_text_2
   include chrome
-  include elasticsearch
+  #include elasticsearch
 
   # include SpeakeEZ-Rails project
   include projects::speakez-rails
