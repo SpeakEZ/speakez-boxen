@@ -1,4 +1,4 @@
-class people::steveneinar {
+class people::zteds {
   include stdlib
   include sysctl
   include sublime_text_2
