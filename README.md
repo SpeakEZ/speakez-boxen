@@ -1,3 +1,7 @@
+# This boxen will not work with mavericks. For mavericks see speakez-boxen-2
+Below is the readme straight from the original our-boxen.
+
+
 # Our Boxen
 
 This is a template Boxen project designed for your organization to fork and
